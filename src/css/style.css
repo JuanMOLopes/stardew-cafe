@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #FFE8D6;
+    color: #4D2D18;
+}
+
+header {
+    background-color: #EFDAC9;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 5vw;
+    }
+}
+
+footer {
+    background-color: #EFDAC9;
+
+    p {
+        text-align: center;
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4D2D18;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #8A6240;
+}
