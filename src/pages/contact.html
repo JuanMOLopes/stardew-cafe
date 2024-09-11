@@ -5,57 +5,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Stardew Café</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <img src="../img/icon.png" alt="logo">
+<body class="column">
+    <header class="row">
+        <img src="../img/icon.png" alt="Logo do Stardew Café">
 
         <nav>
-            <ul>
-                <li><a href="../../index.html">home</a></li>
-                <li><a href="./about.html">about</a></li>
-                <li><a href="./menu.html">menu</a></li>
-                <li><a href="./location.html">location</a></li>
+            <ul class="row">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="./about.html">Sobre</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./location.html">Localização</a></li>
             </ul>
         </nav>
     </header>
 
-    <h2>Contatos</h2>
+    <section class="column">
+        <h1>Contato</h1>
 
-    <p>Estamos ansiosos para ouvir de você! Se tiver dúvidas, sugestões ou apenas quiser bater um papo sobre a vida no
-        campo, entre em contato conosco pelos canais abaixo:</p>
+        <p>Estamos ansiosos para ouvir de você! Se tiver dúvidas, sugestões ou apenas quiser bater um papo sobre a vida
+            no campo, entre em contato conosco pelos canais abaixo:</p>
 
-    <ul>
-        <li><strong>Endereço:</strong> Stardew Café, Praça da Vila Pelicanos, Vale do Orvalho</li>
-        <li><strong>Telefone:</strong> +1 360-683-2179</li>
-        <li><strong>Email:</strong> contato.stardewcafe@gmail.com</li>
-    </ul>
-
-    <h3>Envie um e-mail para nós</h3>
-
-
-    <form action="./form.html">
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" value="" maxlength="30" placeholder="Digite seu nome completo"
-            required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" value="" maxlength="30" placeholder="exemplo@gmail.com" required>
-
-        <textarea name="text" id="text" required></textarea>
-
-        <input type="submit" value="Submit">
-    </form>
-
-    <p>Ou, se preferir, venha nos visitar pessoalmente no coração do Vale do Orvalho. Nossa equipe estará pronta para
-        recebê-lo com um sorriso e uma deliciosa xícara de café!</p>
-
-    <footer>
         <ul>
-            <li><a href="">instagram</a></li>
-            <li><a href="">twitter</a></li>
-            <li><a href="">facebook</a></li>
+            <li class="lista"><strong>Telefone:</strong> +1 360-683-2179</li>
+            <li class="lista"><strong>Email:</strong> contato.stardewcafe@gmail.com</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section class="column">
+        <h2>Envie um e-mail para nós</h2>
+
+        <form action="./form.html" class="column">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" value="" maxlength="35" placeholder="Digite seu nome completo"
+                required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="" placeholder="seuemail@exemplo.com" required>
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" value="" maxlength="30" placeholder="Assunto" required>
+
+            <label for="text">Mensagem:</label>
+            <textarea name="text" id="text" placeholder="Escreva sua mensagem aqui" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+        <p>Ou, se preferir, venha nos visitar pessoalmente no coração do Vale do Orvalho. Nossa equipe estará pronta
+            para recebê-lo com um sorriso e uma deliciosa xícara de café!</p>
+    </section>
+
+    <hr>
+
+    <section class="column">
+        <h2>FAQ (Perguntas Frequentes)</h2>
+        <ul>
+            <li class="lista"><strong>1. Quais são os horários de funcionamento do Stardew Café?</strong></li>
+            <p>Estamos abertos todos os dias das 8h às 18h, exceto aos domingos, quando funcionamos das 9h às 14h.</p>
+
+            <li class="lista"><strong>2. A cafeteria aceita reservas?</strong></li>
+            <p>Sim! Aceitamos reservas para grupos de até 10 pessoas. Para reservar, entre em contato conosco pelo
+                telefone ou email com antecedência de pelo menos 24 horas.</p>
+
+            <li class="lista"><strong>3. Vocês têm opções vegetarianas ou veganas no cardápio?</strong></li>
+            <p>Sim, oferecemos uma variedade de opções vegetarianas e veganas em nosso menu, como saladas, pratos
+                salgados e
+                sobremesas.</p>
+
+            <li class="lista"><strong>4. Vocês realizam eventos ou comemorações especiais?</strong></li>
+            <p>Sim! Oferecemos pacotes para eventos e comemorações como aniversários e reuniões de trabalho. Para mais
+                informações, entre em contato com nossa equipe e organizaremos todos os detalhes.</p>
+
+            <li class="lista"><strong>5. O Stardew Café oferece wi-fi para os clientes?</strong></li>
+            <p>Sim, todos os nossos clientes podem utilizar nosso wi-fi gratuito enquanto estiverem no café.</p>
+
+            <li class="lista"><strong>6. Vocês fazem entregas ou possuem serviço de retirada?</strong></li>
+            <p>Atualmente não realizamos entregas, mas você pode fazer um pedido online e retirá-lo na nossa loja.</p>
+
+            <li class="lista"><strong>7. Onde fica o Stardew Café?</strong></li>
+            <p>Estamos localizados no coração do Vale do Orvalho, na Vila Pelicanos. Confira a seção de <a
+                    href="./location.html">localização</a> para mais detalhes.</p>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section class="column">
+        <h2>Deseja receber novidades e promoções?</h2>
+
+        <form class="column">
+            <label for="email-promocoes">Email:</label>
+            <input type="email" id="email-promocoes" name="email-promocoes" value="" placeholder="seuemail@exemplo.com"
+                required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" value="" placeholder="Digite uma senha" required>
+
+            <input type="submit" value="Receber!">
+        </form>
+    </section>
+
+    <footer class="column">
+        <ul class="row">
+            <li><a href="https://instagram.com/stardewcafe" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/stardewcafe" target="_blank">Twitter</a></li>
+            <li><a href="https://facebook.com/stardewcafe" target="_blank">Facebook</a></li>
         </ul>
         <p>Obrigado por colher momentos conosco no Stardew Café!</p>
     </footer>

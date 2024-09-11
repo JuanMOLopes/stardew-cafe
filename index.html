@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stardew Café</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,51 +20,93 @@
         rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <section class="row">
-            <img src="./src/img/icon.png" alt="logo">
-            <h1>Stardew Café</h1>
-        </section>
+<body class="column">
+    <header class="row">
+        <img src="./src/img/icon.png" alt="Logo do Stardew Café">
 
         <nav>
             <ul class="row">
-                <li><a href="./src/pages/about.html">about</a></li>
-                <li><a href="./src/pages/menu.html">menu</a></li>
-                <li><a href="./src/pages/location.html">location</a></li>
-                <li><a href="./src/pages/contact.html">contact</a></li>
+                <li><a href="./src/pages/about.html">Sobre</a></li>
+                <li><a href="./src/pages/menu.html">Menu</a></li>
+                <li><a href="./src/pages/location.html">Localização</a></li>
+                <li><a href="./src/pages/contact.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="row">
-        <img src="./src/img/cafeteria.png" alt="cafeteria">
-        <article class="column">
-            <h2>Bem-vindo ao Stardew Café,</h2>
+    <section class="column">
+        <h1>Bem-vindo ao Stardew Café!</h1>
 
-            <p>onde a simplicidade da vida rural se encontra com o aconchego de uma
-                xícara de café. Inspirados pela tranquilidade e pela beleza da Vila Pelicanos, criamos um espaço que
-                captura a essência da fazenda, trazendo para a cidade o sabor da natureza e o calor de uma comunidade
-                unida.</p>
+        <p>Onde a simplicidade da vida rural se encontra com o aconchego de uma
+            xícara de café. Inspirados pela tranquilidade e pela beleza da Vila Pelicanos, criamos um espaço que
+            captura a essência da fazenda, trazendo para a cidade o sabor da natureza e o calor de uma comunidade
+            unida.</p>
 
-            <p>Em nosso cardápio, você encontrará bebidas e quitutes preparados com ingredientes frescos, colhidos na
-                fazenda do Vale do Orvalho. Cada
-                detalhe foi pensado para que você se sinta calmo, aproveitando um momento de descanso e reflexão.</p>
+        <p>Em nosso cardápio, você encontrará bebidas e quitutes preparados com ingredientes frescos, colhidos na
+            fazenda do Vale do Orvalho. Cada detalhe foi pensado para que você se sinta calmo, aproveitando um
+            momento
+            de descanso e reflexão.</p>
 
-            <p>Seja para uma rápida pausa do dia a dia ou para longas conversas com amigos, nossa cafeteria é o refúgio
-                perfeito para os amantes do café. Venha nos visitar e descubra o prazer de
-                compartilhar boas histórias e bons sabores em um ambiente que parece ter saído diretamente de uma
-                fazenda dos seus sonhos.</p>
+        <p>Seja para uma rápida pausa do dia a dia ou para longas conversas com amigos, nossa cafeteria é o refúgio
+            perfeito para os amantes do café. Venha nos visitar e descubra o prazer de
+            compartilhar boas histórias e bons sabores em um ambiente que parece ter saído diretamente de uma
+            fazenda dos seus sonhos.</p>
 
-            <a href="./src/pages/location.html">visite nossa cafeteria!</a>
+        <a href="./src/pages/location.html"><button>Visite nossa cafeteria!</button></a>
+    </section>
+
+    <hr>
+
+    <section class="column">
+        <h2>Destaques do Dia</h2>
+
+        <h3>Novidade</h3>
+        <p>Explore as especialidades da estação, com ingredientes frescos e sabores sazonais.</p>
+
+        <a href="./src/pages/menu.html"><button>Confira nosso cardápio</button></a>
+    </section>
+
+    <hr>
+
+    <section class="column">
+        <h2>Depoimentos</h2>
+
+        <article class="row">
+            <img src="./src/img/person1.png" alt="Foto de cliente">
+            <article class="column depoimento">
+                <h3>Alex</h3>
+                <p>"O Stardew Café é o lugar perfeito para relaxar após um longo dia de esportes. Adoro o ambiente
+                    acolhedor
+                    e o café sempre fresquinho."</p>
+            </article>
+        </article>
+
+        <article class="row-reverse">
+            <img src="./src/img/person2.png" alt="Foto de cliente">
+            <article class="column depoimento">
+                <h3>Emily</h3>
+                <p>"As bebidas são incríveis e os doces são deliciosos. Toda vez que venho, experimento algo novo e me
+                    surpreendo!"</p>
+            </article>
+        </article>
+
+        <article class="row">
+            <img src="./src/img/person3.png" alt="Foto de cliente">
+            <article class="column depoimento">
+                <h3>Evelyn</h2>
+                    <p>"O ambiente tranquilo do Stardew Café me ajuda a recarregar as energias. Um ótimo lugar para ler
+                        um
+                        livro
+                        e aproveitar uma boa xícara de chá."</p>
+            </article>
         </article>
     </section>
 
     <footer class="column">
         <ul class="row">
-            <li><a href="">instagram</a></li>
-            <li><a href="">twitter</a></li>
-            <li><a href="">facebook</a></li>
+            <li><a href="https://instagram.com/stardewcafe" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/stardewcafe" target="_blank">Twitter</a></li>
+            <li><a href="https://facebook.com/stardewcafe" target="_blank">Facebook</a></li>
         </ul>
         <p>Obrigado por colher momentos conosco no Stardew Café!</p>
     </footer>
