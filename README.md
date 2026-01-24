@@ -34,7 +34,7 @@ O projeto foi desenvolvido para **praticar, reforçar e aprimorar habilidades em
 ## 🌐 Acesse o Projeto
 
 <p align="center">
-  <a href="https://juanmolopes.github.io/stardew-cafe.github.io/">
+  <a href="https://juanmolopes.github.io/stardew-cafe/">
     <img src="https://img.shields.io/badge/🔗%20Clique%20aqui%20para%20ver%20o%20projeto-blue?style=for-the-badge"/>
   </a>
 </p>
